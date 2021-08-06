@@ -17,6 +17,12 @@ You can get it from the Line Developper channel dashboard.
 kid: "YOUR-KID-STRING"
 ```
 
+# Run
+```bash
+tsc
+node src/genjwt.js
+```
+
 # References
 1. https://developers.line.biz/console
 2. https://developers.line.biz/en/docs/messaging-api/generate-json-web-token/#jwt-use-nodejs
