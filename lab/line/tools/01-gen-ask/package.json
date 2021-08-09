@@ -1,0 +1,15 @@
+{
+  "name": "01-ask-gen",
+  "version": "1.0.0",
+  "main": "./dist/ask-gen.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "rm -fr ./dist && tsc",
+    "start": "node dist/gen-ask.js",
+    "clean": "rm -fr dist; rm -fr node_modules; find . -name \"*.js\" -type f|xargs rm -f; find . -name \"*.map\" -type f|xargs rm -f; find . -name \"*.raw\" -type f|xargs rm -f; find . -name \"*.log\" -type f|xargs rm -f"
+  },
+  "dependencies": {
+    "@types/node": "^16.4.13",
+    "node": "^16.6.1"
+  }
+}
