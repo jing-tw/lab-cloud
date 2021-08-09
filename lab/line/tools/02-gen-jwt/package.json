@@ -1,13 +1,15 @@
 {
   "name": "jwt-gen",
   "version": "1.0.0",
-  "main": "gen-jwt.js",
+  "main": "dist/gen-jwt.js",
   "license": "MIT",
   "dependencies": {
     "@types/node-jose": "^1.1.8",
     "node-jose": "^2.0.0"
   },
   "scripts":{
+    "build": "rm -fr dist; tsc",
+    "start": "node ./dist/gen-jwt.js",
     "clean" : "rm -fr dist; rm -fr node_modules; find . -name \"*.js\" -type f|xargs rm -f; find . -name \"*.map\" -type f|xargs rm -f; find . -name \"*.raw\" -type f|xargs rm -f; find . -name \"*.log\" -type f|xargs rm -f"
   }
 }
