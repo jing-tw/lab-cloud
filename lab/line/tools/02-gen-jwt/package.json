@@ -1,7 +1,7 @@
 {
   "name": "jwt-gen",
   "version": "1.0.0",
-  "main": "genjwt.js",
+  "main": "gen-jwt.js",
   "license": "MIT",
   "dependencies": {
     "@types/node-jose": "^1.1.8",
