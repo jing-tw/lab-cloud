@@ -19,8 +19,7 @@ kid: "YOUR-KID-STRING"
 
 # Run
 ```bash
-tsc
-node src/genjwt.js
+yarn start
 ```
 
 # References
