@@ -5,7 +5,7 @@
   "license": "MIT",
   "dependencies": {
     "@types/node-jose": "^1.1.8",
-    "node-jose": "^2.0.0"
+    "node-jose": "^2.2.0"
   },
   "scripts":{
     "build": "rm -fr dist; tsc",
